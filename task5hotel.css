@@ -1,0 +1,271 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#header{
+    width: 100%;
+    margin-bottom: 0px;
+    display: flex;
+    margin-left: 20%;
+    align-items: center;
+}
+#header img{
+    width: 70px;
+    height: 70px;
+}
+.headercall{
+    margin-right: 20px;
+    padding-left: 20%;
+}
+.headersearch{
+    margin: 8px;
+    width: 20px;
+    height: 20px;
+    padding-left: 15%;
+}
+nav{
+    width: 100%;
+    display: flex;
+    background-color: rgb(67, 67, 174);
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-left: 10%;
+    list-style-type: none;
+    padding: 5px;   
+    place-items: right;
+    justify-items: center;
+    align-items: center; 
+    color: white;
+}
+nav ul li{
+    margin-right: 25%;
+}
+nav button{
+    display: flex;
+    height: 40px;
+    width: 90px;
+    margin-top: 4px;
+    place-items: right;
+    justify-items: center;
+    align-items: center;   
+    border-radius: 5px; 
+}
+.navbutton1{
+    margin-left: 45%;
+    background-color: rgb(255, 217, 0); 
+    font-size: 10px;   
+    justify-content: center;
+}
+.navbutton1:hover{
+    background-color: aqua;
+}
+.navbutton2{
+    background-color:yellow;  
+    font-size: 10px;  
+    justify-content: center;
+    margin-bottom: 5px;
+}
+.navbutton2:hover{
+    background-color: gray;
+}
+#backgroundimage{
+    margin: 0px;
+}
+#backgroundimage img{
+    width: 100%;
+    height: 500px;    
+    background-color: white;
+}
+#imagetext{
+    background-color: rgb(34, 34, 109);
+    color: white;
+    position: absolute;
+    top: 250px;
+    right: 280px;
+    width: 300px;
+    height: 90px;
+    padding-left: 5px;
+}
+#imagetext h4{
+    font-weight: bolder;
+}
+#imagetext2{
+    background-color: rgb(119, 119, 236);
+    color: white;
+    position: absolute;
+    top: 350px;
+    right: 370px;
+    padding: 5px;
+}
+#text{
+    background-color: black;
+    width: 170px;
+    height: 30px;
+    color: white;
+    margin: 5px;
+    position: absolute;
+    bottom: 25px;
+    left: 280px;
+    justify-content: center;
+    place-content: center;
+    text-align: center;
+    border-radius: 10px;
+}
+#textbox{
+    display: flex;
+    margin: 5px;
+    width: 65%;
+    border: 5px solid black;
+    position: absolute;
+    bottom: -30px;
+    left: 250px;    
+}
+#textbox div{
+    padding-left: 10px;
+    background-color: white;
+}
+#textbox div input{
+    width: 110px;  
+}
+#textbox div button{
+    background-color: red;
+    color: white;       
+    padding: 5px;
+    margin-left: 30px;
+}
+#textbox div button:hover{
+    color: chartreuse;
+}
+#content1{
+    background-color: rgb(213, 213, 213);
+    width: 100%;
+}
+#content1 h4{
+    margin-left:10%;
+    padding-top: 10px;
+}
+#content1container{
+    display: flex;
+    margin: 50px;
+}
+#content1container div{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin:0px 50px;
+}
+#content1container img{
+    display: flex;
+    margin-bottom: 5px;
+}
+#content1container button{
+    background-color: rgb(16, 16, 96);
+    width: 60px;
+    color: white;
+    padding: 5px;
+    margin-left: 200px;
+}
+#content1container button:hover{
+    background-color: darkcyan;
+}
+#content1container a{
+    color: blue;
+    text-decoration: none;
+}
+#content2container{
+    display: flex;
+    margin: 5px;
+}
+#content2container img{
+    display: flex; 
+    margin: 0px 150px; 
+    margin-bottom: 10px;  
+}
+#content3container{
+    display: flex;
+    margin-left: 110px;
+    margin-top: 30px;
+    border: 2px solid gray;
+    width: 800px;
+    padding: 20px;
+    background-color: white;
+    place-items: center;
+}
+#footer{
+    width: 100%;
+    height: 400px;
+    display: grid;
+    color: gray;
+    grid-template-areas: 
+    "header article aside main"
+    "footer footer footer footer";
+    grid-template-columns: 200px 200px 200px 300px;
+    grid-template-rows: 120px 10px;
+    background-color: white;
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-left: 80px;
+    
+}
+header{
+    grid-area: header;
+    display: grid;
+}
+article{
+    grid-area: article;
+    display: grid;
+}
+aside{
+    grid-area: aside;
+    display: grid;
+}
+main{
+    grid-area: main;
+    display: grid;
+}
+footer{
+    grid-area: footer;
+    display: grid;
+}
+.company a{
+    text-decoration: none;
+    color: gray;
+}
+.customer a{
+    text-decoration: none;
+    color: gray;
+}
+.miss button {
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    font-weight: bolder;  
+}
+.imgcontainer{
+    width:100%;
+    height:500px;
+}
+.imgcontainer img{
+    width:100%;
+    height:500px;
+}
+#content3container font{
+    font-size: large;
+    color: aqua;
+}
+.breakhr{
+    text-align: center;
+}
+.breakhr hr{
+    border: none;
+    border-top: 1px solid black;
+    width: 67%;
+    margin-left: 20%;
+    margin-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+
